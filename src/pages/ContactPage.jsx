@@ -17,7 +17,7 @@ const ContactPage = () => {
         </div>
         <div className="flex items-center space-x-4">
           <FaPhone className="text-blue-600 text-3xl" />
-          <p className="text-gray-700 text-lg">+91 9472671332</p>
+          <p className="text-gray-700 text-lg">+91-9934152747</p>
         </div>
         <div className="flex items-center space-x-4">
           <FaEnvelope className="text-blue-600 text-3xl" />
