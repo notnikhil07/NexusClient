@@ -47,7 +47,7 @@ const LayoutPage = () => {
         <ul
           className={` ${
             menu ? "translate-x-[-200%]" : "translate-x-0"
-          } transition-all duration-300  md:translate-x-0 md:static md:p-0 md:pt-0 md:flex-row md:flex items-center justify-center  gap-5 lg:gap-10 absolute top-0 left-0 bg-white w-full p-4 flex  flex-col pt-14 md:text-black z-[999] h-full text-2xl  md:text-[18px]`}
+          } transition-all duration-300 md:bg-transparent  md:translate-x-0 md:static md:p-0 md:pt-0 md:flex-row md:flex items-center justify-center  gap-5 lg:gap-10 absolute top-0 left-0 bg-white w-full p-4 flex  flex-col pt-14 md:text-black z-[999] h-full text-2xl  md:text-[18px]`}
         >
           <li
             className="absolute right-5 top-5 md:hidden"
