@@ -7,7 +7,7 @@
     "shortInfo": "A thrilling quiz competition to test your knowledge.",
     "about": "QUIZAHOLIC is a battle of wits where participants answer challenging questions from various domains, including science, history, and general knowledge.",
     "pdfLink": "https://drive.google.com/file/d/13cj2pp0nhI7RcUXHjVcHWOZ3oHAetweP/view?usp=drive_link",
-    "image": "../public/QUIZHALIC.jpg"
+    "image": "/QUIZHALIC.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "shortInfo": "An obstacle race to test speed and agility.",
     "about": "HURDLE HUSTLE is an adrenaline-pumping event where participants navigate through hurdles, showcasing their endurance and athleticism.",
     "pdfLink": "https://drive.google.com/file/d/18zE2FFcCaGsjKfyOOtFKPhZHpNsZI9xP/view?usp=drive_link",
-    "image": "../public/HURDLE HUSTLE.jpg"
+    "image": "/HURDLE HUSTLE.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "shortInfo": "A robotics-based competition focused on thrust power.",
     "about": "THRUST ARENA challenges teams to design robots with maximum thrust efficiency to complete predefined tasks.",
     "pdfLink": "https://drive.google.com/file/d/1lRY1__OyUKdcfUNKZSFZQ1oPrNiuPnMP/view?usp=drive_link",
-    "image": "../public/THRUST ARENA.jpg"
+    "image": "/THRUST ARENA.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "shortInfo": "An autonomous robot race event.",
     "about": "In PATH FOLLOWER, robots must navigate a designated track accurately using sensors and programmed intelligence.",
     "pdfLink": "https://drive.google.com/file/d/1cW5YVm_qXHd_dQgT4GtM7WBLLB8a_xea/view?usp=drive_link",
-    "image": "../public/PATH FOLLOWER.jpg"
+    "image": "/PATH FOLLOWER.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "shortInfo": "A race event on a sandy terrain.",
     "about": "SAND SURFER challenges participants to drive or maneuver vehicles efficiently on rough, sandy surfaces.",
     "pdfLink": "https://drive.google.com/file/d/1u3nKOblCbi5kwtvYZSqoKC0q9vxPWji1/view?usp=drive_link",
-    "image": "../public/SAND SURFER.jpg"
+    "image": "/SAND SURFER.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "shortInfo": "A battle of strategy and skill.",
     "about": "VICTORY ARENA is a competition where participants showcase their strategic thinking and skills in various challenges.",
     "pdfLink": "https://drive.google.com/file/d/1dv29JOTfUis36iDTpHn4kFtpc03Dmrav/view?usp=drive_link",
-    "image": "../public/VICTORY ARENA.jpg"
+    "image": "/VICTORY ARENA.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "shortInfo": "A marketplace competition for the best stall setup.",
     "about": "STALL SHOWDOWN is an entrepreneurial event where participants set up creative and engaging stalls to attract visitors.",
     "pdfLink": "https://drive.google.com/file/d/1ixJ5OfMsdHFv5yLIPdI7zmrPgaak0S9d/view?usp=drive_link",
-    "image": "../public/STALL SHOWDOWN.jpg"
+    "image": "/STALL SHOWDOWN.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "shortInfo": "A pitch competition for innovative business ideas.",
     "about": "STARTUP IDEA provides a platform for budding entrepreneurs to present their groundbreaking business concepts to investors and judges.",
     "pdfLink": "https://drive.google.com/file/d/1fpX2V7vcQWj_8IY0z9zPut0dbAGXUNf-/view?usp=drive_link",
-    "image": "../public/STARTUP IDEA.jpg"
+    "image": "/STARTUP IDEA.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "shortInfo": "A robot that can function on both land and water.",
     "about": "AMPHIBIOUS ROBOT challenges teams to design and build robots capable of navigating both terrestrial and aquatic environments.",
     "pdfLink": "https://drive.google.com/file/d/1KU3rUVNPrhm10JO-IUyMDantS6mFMIbD/view?usp=drive_link",
-    "image": "../public/Amphibious robot.jpg"
+    "image": "/Amphibious robot.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "shortInfo": "A strength-based challenge event.",
     "about": "ARMSTRONG is a physical endurance event where participants showcase their power and stamina in various strength-based tasks.",
     "pdfLink": "https://drive.google.com/file/d/1P8UXQR7plkD4or-4vrbwLB_JWpuaXwem/view?usp=drive_link",
-    "image": "../public/ARMSTRONG.jpg"
+    "image": "/ARMSTRONG.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "shortInfo": "An engineering event focused on structural designs.",
     "about": "TRUSS ARCH challenges participants to design and build the most efficient and sturdy truss structures.",
     "pdfLink": "https://drive.google.com/file/d/1S6VEllyeeWnSqwOte5Z3L7OnfSyhZQIY/view?usp=drive_link",
-    "image": "../public/Truss arch.jpg"
+    "image": "/Truss arch.jpg"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "shortInfo": "A high-speed robot race event.",
     "about": "ROBO RALLY is a robotics event where participants race their self-built robots on a challenging track.",
     "pdfLink": "https://drive.google.com/file/d/1q6FIluXZtqe6RtUzI8pxqfqRCLmWWjzN/view?usp=drive_link",
-    "image": "../public/Robo rally.jpg"
+    "image": "/Robo rally.jpg"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "shortInfo": "A coding event focused on debugging skills.",
     "about": "DEBUG DYNMO is a challenge where programmers must identify and fix bugs in code within a time limit.",
     "pdfLink": "https://drive.google.com/file/d/1vthCBsE-E0U6oPi60hcStuLu3UiGwp_r/view?usp=drive_link",
-    "image": "../public/DEBUG DYNAMO.jpg"
+    "image": "/DEBUG DYNAMO.jpg"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "shortInfo": "A UI/UX design competition.",
     "about": "INTERFACE INSIDER challenges designers to create intuitive and engaging user interfaces.",
     "pdfLink": "https://drive.google.com/file/d/1H24WNf_tLqD5qYJrp4edZX7qzqgXh97A/view?usp=drive_link",
-    "image": "../public/INTERFACE INSIDER.jpg"
+    "image": "/INTERFACE INSIDER.jpg"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "shortInfo": "A CAD design competition.",
     "about": "CADION is an event where participants showcase their Computer-Aided Design (CAD) skills.",
     "pdfLink": "https://drive.google.com/file/d/1S544j9_zYgReMOBzyxUKhXULsi3LXv2z/view?usp=drive_link",
-    "image": "../public/CADION.jpg"
+    "image": "/CADION.jpg"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "shortInfo": "A treasure hunt event.",
     "about": "THE GOLDEN QUEST is an adventurous hunt where participants solve clues to find hidden treasures.",
     "pdfLink": "https://example.com/the-golden-quest.pdf",
-    "image": "../public/THE GOLDEN QUEST.jpg"
+    "image": "/THE GOLDEN QUEST.jpg"
   },
   {
     "id": 17,
@@ -167,6 +167,6 @@
     "shortInfo": "A robotics soccer competition.",
     "about": "ROBO KICKOFF is an event where participants build and control robots to compete in a soccer match.",
     "pdfLink": "https://drive.google.com/file/d/1jAcQaJ_Nac-9El0xvif-J0ao-W6qI7N-/view?usp=drive_link",
-    "image": "../public/ROBO KICKOFF.jpg"
+    "image": "/ROBO KICKOFF.jpg"
   }
 ]
