@@ -76,7 +76,7 @@ const LoginPage = () => {
         Home
       </div>
       <form
-        className="flex bg-indigo-100 items-center justify-center flex-col gap-4 md:border p-4 w-full sm:w-[70%] md:w-[50%] lg:w-[30%] rounded border-gray-300 md:shadow-sm"
+        className="flex items-center justify-center flex-col gap-4 md:border p-4 w-full sm:w-[70%] md:w-[50%] lg:w-[30%] rounded border-gray-300 md:shadow-sm"
         onSubmit={handleSubmit}
       >
         <img src="/newlogo.png" alt="" className="h-20" />
