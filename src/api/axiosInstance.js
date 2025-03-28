@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: process.env.VITE_APP_BACKEND_API,
+  baseURL: "https://nexus25-production.up.railway.app/api",
   withCredentials: true,
 });
 
