@@ -92,7 +92,7 @@ const SignupPage = () => {
         onSubmit={handleSubmit}
       >
         <img src="/nexus logo.png" alt="" className="h-48" />
-        <h1 className="font-bold">Signup Page</h1>
+        <h1 className="font-bold -mt-12">Signup Page</h1>
         <div className="w-full">
           <p className="flex items-center gap-1 my-1">
             <FaRegUser />
