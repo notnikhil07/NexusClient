@@ -30,7 +30,7 @@ const LayoutPage = () => {
   }, [menu]);
   return (
     <div>
-      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between">
+      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between bg-indigo-200">
         {/* logo  */}
         <h1
           className="font-bold text-black cursor-pointer"
