@@ -192,10 +192,10 @@ const LayoutPage = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3 className="text-lg font-medium mb-2">Contact Us</h3>
           <a
-            href="tel:+91-9472671332"
+            href="tel:+91-7050705004"
             className="flex items-center gap-2 hover:text-blue-400 transition"
           >
-            <FaPhoneAlt /> +919-472671332
+            <FaPhoneAlt /> +91-7050705004
           </a>
           <a
             href="mailto:asimogecsamastipur@gmail.com"
