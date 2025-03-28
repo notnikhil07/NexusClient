@@ -79,8 +79,8 @@ const LoginPage = () => {
         className="flex items-center justify-center flex-col gap-4 md:border p-4 w-full sm:w-[70%] md:w-[50%] lg:w-[30%] rounded border-gray-300 md:shadow-sm"
         onSubmit={handleSubmit}
       >
-        <img src="/nexus logo.png" alt="" className="h-20" />
-        <h1 className="font-bold">Login Page</h1>
+        <img src="/nexus logo.png" alt="" className="h-50" />
+        <h1 className="font-bold -mt-12">Login Page</h1>
 
         <div className="w-full">
           <p className="flex items-center gap-1 my-1">
