@@ -29,7 +29,7 @@ const SingleRegistrationPage = () => {
   return (
     <div className="max-w-2xl mx-auto p-6 bg-white  rounded-lg min-h-screen">
       <div
-        className="absolute top-18 left-4  md:top-20 md:left-10 "
+        className="absolute top-28 left-4  md:top-28 md:left-10  "
         onClick={() => {
           window.history.back();
         }}
