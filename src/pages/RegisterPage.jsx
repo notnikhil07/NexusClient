@@ -243,8 +243,8 @@ const RegisterPage = () => {
           )}
         </div>
         <div className="text-red-500">
-          Note: If you are registering for Victory Arena, you have to pay 50
-          more rupees.
+          Note: The registration fee for NEXUS'25 is ₹300 per person, And all participants must register individually.If you participate in the Victory Arena, An additional
+          charge of ₹50 will apply. However, if you particiate only in Victory Arena, The charge will be ₹50.
         </div>
         <div className="col-span-2">
           <button
