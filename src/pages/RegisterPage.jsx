@@ -39,6 +39,7 @@ const RegisterPage = () => {
     batch: "",
     events: [],
     teamName: "",
+    tshirt:"",
     paymentProof: null,
   });
   const [errors, setErrors] = useState({});
@@ -178,6 +179,12 @@ const RegisterPage = () => {
           label="Team Name (Optional)"
           name="teamName"
           value={formData.teamName}
+          onChange={handleChange}
+        />
+         <InputField
+          label="T-shirt (size:S,M,L,XL,XXL)"
+          name="tshirt"
+          value={formData.tshirt}
           onChange={handleChange}
         />
 
