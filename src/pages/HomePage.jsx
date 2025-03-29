@@ -1,4 +1,5 @@
 import React from "react";
+import { MdCelebration } from "react-icons/md";
 import { PiFilePdfLight } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,9 @@ const HomePage = () => {
     <div className="relative min-h-[90vh] w-full flex items-center flex-col justify-center bg-gradient-to-br from-white via-[#dbeafe] to-white">
       {/* Content */}
       <div className="flex flex-col items-center text-center px-6">
+        <p className="bg-violet-300 rounded-2xl py-1 px-3 text-violet-700 texty2 shadow-sm flex items-center gap-1 ">
+          It's Fest Season'25 <MdCelebration />
+        </p>
         <h1 className="font-bold text-[50px] lg:text-[100px] drop-shadow-lg text-gray-900 texty">
           NEXUS'25
         </h1>
@@ -39,6 +43,21 @@ const HomePage = () => {
         >
           <PiFilePdfLight />
           Brochure
+        </div>
+      </div>
+      {/* Custom Moving "Register Now" */}
+      <div
+        className="w-full overflow-hidden bg-[#0D0630] text-white py-2 cursor-pointer mt-12"
+        onClick={() => navigate("/register")}
+      >
+        <div className="marquee whitespace-nowrap text-xl font-bold uppercase">
+          {Array(10)
+            .fill("REGISTER NOW 🚀")
+            .map((text, index) => (
+              <span key={index} className="mx-8">
+                {text}
+              </span>
+            ))}
         </div>
       </div>
     </div>
