@@ -104,7 +104,7 @@ const SignupPage = () => {
             name="fullname"
             value={userData.fullname}
             onChange={handleChange}
-            placeholder="Nikhil Yadav"
+            placeholder="XYZ"
             className="rounded border border-gray-300 px-2 py-1 w-full"
           />
         </div>
@@ -119,7 +119,7 @@ const SignupPage = () => {
             name="email"
             value={userData.email}
             onChange={handleChange}
-            placeholder="nikhil@gmail.com"
+            placeholder="abc@gmail.com"
             className="rounded border px-2 py-1 w-full border-gray-300"
           />
         </div>
