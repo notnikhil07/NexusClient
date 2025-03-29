@@ -68,6 +68,9 @@ const SingleRegistrationPage = () => {
         <strong>Events:</strong> {registration.event?.join(", ")}
       </p>
       <p>
+        <strong>Tshirt Size:</strong> {registration?.tshirtSize}
+      </p>
+      <p>
         <strong>Created At:</strong>{" "}
         {new Date(registration.createdAt).toLocaleString()}
       </p>
