@@ -127,7 +127,7 @@ const LayoutPage = () => {
           <li
             className={` ${
               user ? "hidden" : ""
-            } md:hidden bg-blue-500 rounded-3xl px-4 py-2 `}
+            } md:hidden bg-blue-500 rounded-3xl px-4 py-2 text-white `}
             onClick={() => {
               setMenu(true);
               navigate("/login");
@@ -148,7 +148,7 @@ const LayoutPage = () => {
             }}
             className={`${
               user ? "hidden" : ""
-            } bg-blue-500 px-2 py-1 rounded-3xl text-white cursor-pointer border`}
+            } bg-[#0D0630] hover:bg-transparent hover:text-black transition-all duration-300 px-4 py-2 rounded-3xl text-white cursor-pointer border`}
           >
             Login
           </div>
