@@ -16,6 +16,7 @@
   /* font-family: "Playwrite IT Moderna", cursive; */
   /* font-family: "Inter", sans-serif; */
   /* font-family: "Cinzel Decorative", serif; */
+  user-select:none;
 }
 .texty {
   /* font-family: "Satoshi", sans-serif; */
