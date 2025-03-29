@@ -30,7 +30,10 @@ const LayoutPage = () => {
   }, [menu]);
   return (
     <div>
-      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between bg-indigo-200">
+        <div className="flex items-center justify-center py-2 bg-[#0D0630] text-white text-sm md:text-md">
+        NEXUS'25 – Innovate ✨ Compete 🏆 Conquer 🚀
+      </div>
+      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between ">
         {/* logo  */}
         <h1
           className="font-bold text-black cursor-pointer"
@@ -159,10 +162,10 @@ const LayoutPage = () => {
           >
             <CiMenuFries />
           </div>
-          <div
+           <div
             className={` ${
               user ? "" : "hidden"
-            } flex items-center justify-center gap-4 size-8 md:size-10 rounded-full border cursor-pointer  text-blue-500  text-2xl  border-black `}
+            } flex items-center justify-center gap-4 size-8 md:size-10 rounded-full  cursor-pointer  text-black  text-2xl  border-black `}
             onClick={() => {
               if (user.role === "admin") {
                 navigate("/admin");
@@ -171,7 +174,8 @@ const LayoutPage = () => {
               }
             }}
           >
-            <p>{user?.fullname.charAt(0)}</p>
+            <FaUser />
+            {/* <p>{user?.fullname.charAt(0)}</p> */}
           </div>
         </div>
       </nav>
