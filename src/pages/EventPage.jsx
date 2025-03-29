@@ -7,7 +7,7 @@ const EventPage = () => {
 
   return (
     <div className="min-h-[84vh] p-2 my-4 ">
-      <p className="font-bold text-2xl">Events</p>
+      <p className="font-bold flex items-center text-2xl">Events</p>
       <div className="mt-6 flex items-center flex-wrap gap-4 justify-center  ">
         {data.map((d) => (
           <div key={d.id} className="flex items-center">
