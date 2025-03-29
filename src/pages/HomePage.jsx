@@ -6,7 +6,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative min-h-screen w-full flex items-center flex-col justify-center bg-gradient-to-br from-white via-[#dbeafe] to-white">
+    <div className="relative min-h-[90vh] w-full flex items-center flex-col justify-center bg-gradient-to-br from-white via-[#dbeafe] to-white">
       {/* Content */}
       <div className="flex flex-col items-center text-center px-6">
         <h1 className="font-bold text-[50px] lg:text-[100px] drop-shadow-lg text-gray-900 texty">
