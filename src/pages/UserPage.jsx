@@ -53,7 +53,7 @@ const UserPage = () => {
           <CiLogout /> Logout
         </p>
       </div>
-      {userRegistration && userRegistration?.length == 0 ? (
+      {!userRegistration  ? (
         <div>
           <div className="mx-2 text-green-700">
             Please register for events if you have not yet registered.
