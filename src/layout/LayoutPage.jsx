@@ -11,6 +11,7 @@ import {
   FaLinkedinIn,
   FaPhoneAlt,
   FaEnvelope,
+  FaUser
 } from "react-icons/fa";
 const LayoutPage = () => {
   const navigate = useNavigate();
