@@ -17,10 +17,14 @@ const HomePage = () => {
           NEXUS'25
         </h1>
         <p className="md:text-xl text-gray-700 drop-shadow-md mx-[50px] lg:mx-[200px] texty2">
-          Welcome to Nexus'25, the Annual Techfest of GEC Samastipur! Join us
-          for a celebration of innovation with workshops, competitions, and
-          inspiring speakers. Connect with fellow tech enthusiasts and showcase
-          your talents!
+          {" "}
+          Welcome to Nexus'25
+        </p>
+        <p className="md:text-xl text-gray-700 drop-shadow-md mx-[50px] lg:mx-[200px] texty2">
+          The Annual Techfest of GEC Samastipur! This time it's an inter
+          College tech fest. Join us for a celebration of innovation with
+          workshops, competitions, and inspiring speakers. Connect with fellow
+          tech enthusiasts and showcase your talents!
         </p>
 
         {/* Register Button */}
