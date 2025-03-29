@@ -11,7 +11,7 @@ import {
   FaLinkedinIn,
   FaPhoneAlt,
   FaEnvelope,
-  FaUser
+  FaUser,
 } from "react-icons/fa";
 const LayoutPage = () => {
   const navigate = useNavigate();
@@ -31,13 +31,13 @@ const LayoutPage = () => {
   }, [menu]);
   return (
     <div>
-        <div className="flex items-center justify-center py-2 bg-[#0D0630] text-white text-sm md:text-md">
+      <div className="flex items-center justify-center py-2 bg-[#0D0630] text-white text-sm md:text-md">
         NEXUS'25 – Innovate ✨ Compete 🏆 Conquer 🚀
       </div>
-      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between ">
+      <nav className=" border-b  border-blue-500  py-3 px-4  flex items-center justify-between">
         {/* logo  */}
         <h1
-          className="font-bold text-black cursor-pointer"
+          className="font-bold text-black cursor-pointer "
           onClick={() => {
             navigate("/");
           }}
@@ -51,10 +51,10 @@ const LayoutPage = () => {
         <ul
           className={` ${
             menu ? "translate-x-[-200%]" : "translate-x-0"
-          } transition-all duration-300 md:bg-transparent  md:translate-x-0 md:static md:p-0 md:pt-0 md:flex-row md:flex items-center justify-center  gap-5 lg:gap-10 absolute top-0 left-0 bg-white w-full p-4 flex  flex-col pt-14 md:text-black z-[999] h-full text-2xl  md:text-[18px]`}
+          } transition-all duration-300  md:translate-x-0 md:static md:p-0 md:pt-0 md:flex-row md:flex items-center justify-center  gap-5 lg:gap-10 absolute top-0 left-0 bg-white w-full p-4 flex  flex-col pt-14 md:text-black z-[999] h-full text-2xl  md:text-[18px]`}
         >
           <li
-            className="absolute right-5 top-5 md:hidden"
+            className="absolute right-5 top-5 md:hidden cursor-pointer"
             onClick={() => {
               setMenu(!menu);
             }}
@@ -156,14 +156,14 @@ const LayoutPage = () => {
 
         <div className="flex items-center justify-center gap-2 flex-row-reverse">
           <div
-            className="text-xl md:hidden"
+            className="text-xl md:hidden cursor-pointer"
             onClick={() => {
               setMenu(!menu);
             }}
           >
             <CiMenuFries />
           </div>
-           <div
+          <div
             className={` ${
               user ? "" : "hidden"
             } flex items-center justify-center gap-4 size-8 md:size-10 rounded-full  cursor-pointer  text-black  text-2xl  border-black `}
@@ -197,10 +197,10 @@ const LayoutPage = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3 className="text-lg font-medium mb-2">Contact Us</h3>
           <a
-            href="tel:+91-7050705004"
+            href="tel:+91-9472671332"
             className="flex items-center gap-2 hover:text-blue-400 transition"
           >
-            <FaPhoneAlt /> +91-7050705004
+            <FaPhoneAlt /> +919-472671332
           </a>
           <a
             href="mailto:asimogecsamastipur@gmail.com"
