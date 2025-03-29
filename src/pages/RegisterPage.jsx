@@ -26,6 +26,8 @@ const eventsList = [
   "Amphibious Robot",
 ];
 
+const tshirtSizes = ["S", "M", "L", "XL", "XXL"];
+
 const RegisterPage = () => {
   const { user } = useStore();
   const navigate = useNavigate();
@@ -39,8 +41,8 @@ const RegisterPage = () => {
     batch: "",
     events: [],
     teamName: "",
-    tshirt:"",
     paymentProof: null,
+    tshirtSize: "", // Added T-shirt size field
   });
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -66,6 +68,9 @@ const RegisterPage = () => {
         : prev.events.filter((event) => event !== value),
     }));
   };
+  const handleTshirtChange = (e) => {
+    setFormData({ ...formData, tshirtSize: e.target.value });
+  };
 
   const validateForm = () => {
     let newErrors = {};
@@ -79,6 +84,7 @@ const RegisterPage = () => {
     if (formData.events.length === 0)
       newErrors.events = "Select at least one event";
     if (!formData.paymentProof) newErrors.paymentProof = "Upload payment proof";
+    if (!formData.tshirtSize) newErrors.tshirtSize = "Select a T-shirt size";
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -136,7 +142,7 @@ const RegisterPage = () => {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="bg-white md:shadow-lg rounded-lg md:p-8 w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-6"
+        className=" md:shadow-lg rounded-lg md:p-8 w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-6 "
       >
         <InputField label="Full Name" name="name" value={name} disabled />
         <InputField label="Email" name="email" value={email} disabled />
@@ -181,12 +187,6 @@ const RegisterPage = () => {
           value={formData.teamName}
           onChange={handleChange}
         />
-         <InputField
-          label="T-shirt (size:S,M,L,XL,XXL)"
-          name="tshirt"
-          value={formData.tshirt}
-          onChange={handleChange}
-        />
 
         <div className="col-span-2">
           <label className="block text-gray-700 font-semibold mb-2">
@@ -207,6 +207,28 @@ const RegisterPage = () => {
           </div>
           {errors.events && (
             <p className="text-red-500 text-xs mt-1">{errors.events}</p>
+          )}
+        </div>
+        {/* T-shirt Size Selection */}
+        <div className="col-span-2">
+          <label className="block text-gray-700 font-semibold mb-2">
+            T-shirt Size
+          </label>
+          <select
+            name="tshirtSize"
+            value={formData.tshirtSize}
+            onChange={handleTshirtChange}
+            className="w-full border p-2 rounded bg-gray-50"
+          >
+            <option value="">Select Size</option>
+            {tshirtSizes.map((size) => (
+              <option key={size} value={size}>
+                {size}
+              </option>
+            ))}
+          </select>
+          {errors.tshirtSize && (
+            <p className="text-red-500 text-xs mt-1">{errors.tshirtSize}</p>
           )}
         </div>
         <div className="col-span-2 flex flex-col items-center">
@@ -249,9 +271,11 @@ const RegisterPage = () => {
             <p className="text-red-500 text-xs mt-1">{errors.paymentProof}</p>
           )}
         </div>
-        <div className="text-red-500">
-          Note: The registration fee for NEXUS'25 is ₹300 per person, And all participants must register individually.If you participate in the Victory Arena, An additional
-          charge of ₹50 will apply. However, if you particiate only in Victory Arena, The charge will be ₹50.
+        <div className="text-red-500 w-full">
+          Note: The registration fee for NEXUS'25 is ₹300 per person, And all
+          participants must register individually.If you participate in the
+          Victory Arena, An additional charge of ₹50 will apply. However, if you
+          particiate only in Victory Arena, The charge will be ₹50.
         </div>
         <div className="col-span-2">
           <button
