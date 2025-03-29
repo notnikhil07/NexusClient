@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marcellus&family=Playwrite+IT+Moderna:wght@100..400&family=Shadows+Into+Light&display=swap");
+
 * {
-/*   font-family: "Satoshi", sans-serif; */
+  /* font-family: "Satoshi", sans-serif; */
   /* font-family: "Supreme", sans-serif; */
   /* font-family: "Boska", serif; */
   /* font-family: "Synonym", sans-serif; */
@@ -7,4 +9,25 @@
   /* font-family: "Gambetta", serif; */
   /* font-family: "RX100", sans-serif; */
   font-family: "Clash Grotesk", sans-serif;
+  /* font-family: "Geist", sans-serif; */
+  /* font-family: "Shadows Into Light", cursive; */
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+  /* font-family: "Playwrite IT Moderna", cursive; */
+  /* font-family: "Inter", sans-serif; */
+  /* font-family: "Cinzel Decorative", serif; */
+}
+.texty {
+  /* font-family: "Satoshi", sans-serif; */
+  /* font-family: "Supreme", sans-serif; */
+  font-family: "Cinzel Decorative", serif;
+
+  /* font-family: "Boska", serif; */
+  /* font-family: "Synonym", sans-serif; */
+  /* font-family: "Telma", cursive; */
+  /* font-family: "Gambetta", serif; */
+}
+.texty2 {
+  /* font-family: "Inter", sans-serif; */
+    font-family: "Marcellus", serif;
 }
