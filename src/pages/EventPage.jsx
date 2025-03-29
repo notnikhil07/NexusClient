@@ -6,7 +6,7 @@ const EventPage = () => {
   // console.log(data);
 
   return (
-    <div className="min-h-[84vh] p-2 my-4 ">
+    <div className="min-h-[84vh] p-2 my-4 flex items-center justify-center flex-col ">
       <p className="font-bold text-2xl">Events</p>
       <div className="mt-6 flex items-center flex-wrap gap-4 justify-center  ">
         {data.map((d) => (
