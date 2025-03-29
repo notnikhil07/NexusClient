@@ -93,7 +93,7 @@ const LoginPage = () => {
             name="email"
             value={userData.email}
             onChange={handleChange}
-            placeholder="nikhil@gmail.com"
+            placeholder="abc@gmail.com"
             className="rounded border px-2 py-1 w-full border-gray-300"
           />
         </div>
