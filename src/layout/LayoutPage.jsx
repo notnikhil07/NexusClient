@@ -42,7 +42,7 @@ const LayoutPage = () => {
             navigate("/");
           }}
         >
-          <img src="/newlogo.png" alt="" className="h-10" />
+          <img src="/nexus logo.png" alt="" className="h-10" />
           {/* NEXUS'25 */}
         </h1>
         {/* <img src={logo} alt="" className="size-10 bg-black" /> */}
