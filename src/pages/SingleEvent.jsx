@@ -22,7 +22,7 @@ const SingleEvent = () => {
   return (
     <div className="max-w-3xl mx-6 md:mx-auto  bg-white  rounded-lg my-3 min-h-screen ">
       <button
-        className="flex items-center text-gray-700 hover:text-gray-900 absolute top-18 left-6 cursor-pointer"
+        className="flex items-center text-gray-700 hover:text-gray-900 absolute top-28 left-6 cursor-pointer"
         onClick={() => navigate(-1)}
       >
         <FaArrowLeft className="mr-2" /> Back
