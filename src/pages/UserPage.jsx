@@ -53,6 +53,9 @@ const UserPage = () => {
           <CiLogout /> Logout
         </p>
       </div>
+      <div className="my-2">
+        <a href="https://chat.whatsapp.com/Jvn8gGrBqvqHFXZHRlmYHu" target="_blank">Click to join Whatsapp Group</a>
+      </div>
       {!userRegistration  ? (
         <div>
           <div className="mx-2 text-green-700">
