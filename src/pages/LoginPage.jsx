@@ -53,7 +53,7 @@ const LoginPage = () => {
       navigate("/");
     } catch (error) {
       console.log(error?.response?.data);
-      setLoginError("Failed to signup. Please try again later.");
+      setLoginError(error?.response?.data?.message);
       setLoggingIn(false);
     }
   };
