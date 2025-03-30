@@ -65,7 +65,7 @@ const SignupPage = () => {
       navigate("/");
     } catch (error) {
       console.log(error?.response?.data);
-      setSignupError(error?.response?.data.message);
+      setSignupError(error?.response?.data?.message);
       setIsSigningUp(false);
     }
   };
