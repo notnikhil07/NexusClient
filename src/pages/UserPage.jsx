@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import useStore from "../store/store";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../api/axiosInstance";
-import { CiLogout } from "react-icons/ci";
+import { CiLogout } from "react-icons/ci";import { FaWhatsapp } from "react-icons/fa6";
 
 const UserPage = () => {
   const { user, setUser } = useStore();
@@ -53,7 +53,8 @@ const UserPage = () => {
           <CiLogout /> Logout
         </p>
       </div>
-      <div className="my-2">
+      <div className="my-2 mx-2 bg-green-500 text-white px-3 py-2 rounded flex items-center justify-center gap-1">
+        <FaWhatsapp />
         <a href="https://chat.whatsapp.com/Jvn8gGrBqvqHFXZHRlmYHu" target="_blank">Click to join Whatsapp Group</a>
       </div>
       {!userRegistration  ? (
