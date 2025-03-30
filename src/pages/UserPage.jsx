@@ -53,7 +53,7 @@ const UserPage = () => {
           <CiLogout /> Logout
         </p>
       </div>
-      <div className="my-2 mx-2 bg-green-500 text-black px-3 py-2 rounded flex items-center justify-center gap-1 cursor-pointer w-[230px]">
+      <div className="my-2 mx-2 bg-green-500 text-white px-3 py-2 rounded flex items-center justify-center gap-1 cursor-pointer w-[230px]">
         <FaWhatsapp className="text-2xl" />
         <a href="https://chat.whatsapp.com/Jvn8gGrBqvqHFXZHRlmYHu" target="_blank">Click to join Whatsapp Group</a>
       </div>
