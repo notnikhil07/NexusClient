@@ -65,7 +65,7 @@ const SignupPage = () => {
       navigate("/");
     } catch (error) {
       console.log(error?.response?.data);
-      setSignupError("Failed to signup. Please try again later.");
+      setSignupError(error?.response?.data.message);
       setIsSigningUp(false);
     }
   };
