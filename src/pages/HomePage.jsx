@@ -26,7 +26,7 @@ const HomePage = () => {
           workshops, competitions, and inspiring speakers. Connect with fellow
           tech enthusiasts and showcase your talents!
         </p>
-      </p> class="w-full text-center text-red-500 mx-6 my-3">
+      <p> class="w-full text-center text-red-500 mx-6 my-3">
       Note: Event registration is mandatory for Nexus'25. You cannot be a part of Nexus just by participating in a single Victory Arena.
       </p>
 
