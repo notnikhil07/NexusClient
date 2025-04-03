@@ -64,6 +64,9 @@ const HomePage = () => {
             ))}
         </div>
       </div>
+         <p className="md:text-xl text-gray-700 drop-shadow-md mx-[50px] lg:mx-[200px] texty2">
+          Note*: Registration is compulsory to access event passes.
+        </p>
     </div>
   );
 };
