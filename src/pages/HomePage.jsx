@@ -7,7 +7,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative min-h-[90vh] w-full flex items-center flex-col justify-center bg-gradient-to-br from-white via-[#dbeafe] to-white">
+    <div className="relative min-h-screen w-full flex items-center flex-col justify-center bg-gradient-to-br from-white via-[#dbeafe] to-white">
       {/* Content */}
       <div className="flex flex-col items-center text-center px-6">
         <p className="bg-violet-300 rounded-2xl py-1 px-3 text-violet-700 texty2 shadow-sm flex items-center gap-1 ">
