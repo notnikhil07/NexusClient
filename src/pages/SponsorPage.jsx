@@ -8,7 +8,6 @@ const sponsors = [
   "/s5.jpg",
   "/s6.jpg",
   "/s7.jpg",
-  // "/s8.jpg",
 ];
 
 const SponsorPage = () => {
@@ -20,12 +19,12 @@ const SponsorPage = () => {
           {sponsors.map((src, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-xl p-4 flex items-center justify-center hover:scale-105 transition-transform"
+              className="p-4 flex items-center justify-center hover:scale-105 transition-transform"
             >
               <img
                 src={src}
                 alt={`Sponsor ${index + 1}`}
-                className="max-h-24 w-auto object-contain"
+                className="max-h-40 w-auto object-contain"
               />
             </div>
           ))}
