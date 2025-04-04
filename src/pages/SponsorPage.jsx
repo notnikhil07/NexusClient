@@ -1,14 +1,14 @@
 import React from "react";
 
 const sponsors = [
-  "/sponsors/logo1.png",
-  "/sponsors/logo2.png",
-  "/sponsors/logo3.png",
-  "/sponsors/logo4.png",
-  "/sponsors/logo5.png",
-  "/sponsors/logo6.png",
-  "/sponsors/logo7.png",
-  "/sponsors/logo8.png",
+  "/s1.jpg",
+  "/s2.jpg",
+  "/s3.jpg",
+  "/s4.jpg",
+  "/s5.jpg",
+  "/s6.jpg",
+  "/s7.jpg",
+  // "/s8.jpg",
 ];
 
 const SponsorPage = () => {
