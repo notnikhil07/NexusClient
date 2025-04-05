@@ -242,7 +242,7 @@ const RegisterPage = () => {
             <p>IFSC Code :-UBIN0590282</p>
             <p>Bank:- Union Bank of India</p>
             <p> Branch:- Narghoghi Subhash Chowk, Narghoghi</p>
-            <p>Add Screenshort with visible UTR no. or UPI transaction ID </p>
+            <p>Add Screenshot with visible UTR no. or UPI transaction ID </p>
           </div>
         </div>
         <div className="col-span-2">
