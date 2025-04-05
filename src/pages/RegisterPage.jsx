@@ -18,7 +18,7 @@ const eventsList = [
   "Interface Insider",
   "Debug Dynamo",
   "Robo Rally",
-  "Trush Arch",
+  "Truss Arch",
   "Armstrong",
   "Startup Idea",
   "Thrust Arena",
