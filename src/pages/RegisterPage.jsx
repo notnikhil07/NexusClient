@@ -246,7 +246,7 @@ const RegisterPage = () => {
           </div>
         </div>
           <div className="text-red-500 w-full">
-         <p> NOTE*: Add Screenshot with visible UTR no. or UPI transaction ID </p>
+         <p> NOTE*: Upload screenshot with visible UTR no. or UPI transaction ID </p>
         </div>
         <div className="col-span-2">
           <label className="block text-gray-700 font-semibold mb-2">
