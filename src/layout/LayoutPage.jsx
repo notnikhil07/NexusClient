@@ -200,7 +200,7 @@ const LayoutPage = () => {
             href="tel:+91-7050705004"
             className="flex items-center gap-2 hover:text-blue-400 transition"
           >
-            <FaPhoneAlt /> +91-7050705004
+            <FaPhoneAlt /> 
           </a>
           <a
             href="mailto:asimogecsamastipur@gmail.com"
